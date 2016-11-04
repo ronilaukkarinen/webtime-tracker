@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "js/config.js", "js/fn.js", "js/storage-local.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icon/icon-19.png",
+         "38": "icon/icon-38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Webtime Tracker"
+   },
+   "description": "Discover your browsing habits! Time tracking at its best.",
+   "icons": {
+      "128": "icon/icon-128.png",
+      "16": "icon/icon-16.png",
+      "32": "icon/icon-32.png",
+      "48": "icon/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo36TrxZBakQVOyDOPzz/wAm4nGiz2P/gjP2F9RPEyzwtvh1wlP35PKeuvspZmVtvb9QGxA5clL0y0vEXKiNC3C2bIR6diIYjipKan0D0hX2WFKnAd9OrCt6mGOp/6QxujMxp1p5EXXFdsnjMAKSM1Hb+Ihn4pllEDehV9c70u0wJBh7WOO8rpowtW095RbWnD3zuDdBlzZN9qJynG975yALhYViqeXF3ulc0xk9PplxfMPsxXw37nAECgY9ElYNKxdPrC6+ETfqrPkh5HttHRFWtTcdY5exChF2WWoGKzUU3XbPd6xUQb/um6Y9j8Wj0x1z0PPim9Ff62Bu2/M/exwIDAQAB",
+   "manifest_version": 2,
+   "name": "Webtime Tracker",
+   "offline_enabled": true,
+   "optional_permissions": [ "\u003Call_urls>" ],
+   "permissions": [ "tabs", "idle", "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.2"
+}
